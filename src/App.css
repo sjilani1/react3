@@ -4,6 +4,41 @@
 
 }
 
-.BakeryItem {
+.BakeryItem{ 
+    font-size: 20px;
+    font-style: normal;
+   
+    
+    
   
+
+}
+
+.card img { 
+    width:50vh; 
+    height: 50vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card { 
+    display: flex; 
+    justify-content: space-between;
+    padding: auto; 
+    grid-column: auto;
+    grid-template-rows: max-content;
+    margin: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.card p1 { 
+    font-size: 20px; 
+}
+
+.card p2 { 
+    font-size: 20px;
 }
